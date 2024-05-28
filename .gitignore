@@ -1,0 +1,11 @@
+### Jekyll ###
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+### Bundler ###
+.bundle/
+
+### Python ###
+__pycache__/

@@ -1,0 +1,60 @@
+on:
+  push
+
+name: Build and deploy Github page
+
+jobs:
+  build:
+    name: Build
+
+    environment:
+      name: github-pages
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          submodules: true
+
+      - name: Setup Ruby and gems
+        uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+
+      - name: Config
+        env:
+          URL: ${{ vars.URL }}
+          BASE_URL: ${{ vars.BASE_URL }}
+        run: |
+          touch _config_gh-pages.yml
+          if [[ -n $URL ]]; then echo "url: '$URL'" >> _config_gh-pages.yml; fi
+          if [[ -n $BASE_URL ]]; then echo "baseurl: '$BASE_URL'" >> _config_gh-pages.yml; fi
+
+      - name: Build website
+        run: bundle exec jekyll build --config _config_gh-pages.yml,_config.yml
+
+      - name: Upload artifacts
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site/
+
+  deploy:
+    name: Deploy
+    needs: build
+
+    permissions:
+      pages: write
+      id-token: write
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4

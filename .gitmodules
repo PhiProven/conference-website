@@ -1,0 +1,4 @@
+[submodule "jekyll-theme-conference"]
+	path = _themes/conference
+	url = ./
+	branch = jekyll-theme-conference
