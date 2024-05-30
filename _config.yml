@@ -1,2 +1,76 @@
 theme: jekyll-theme-conference
 ignore_theme_config: true
+
+title: 'Wormshop 2024'
+description: >-
+  Workshop on Proof Theory, Modal Logic and Reflection Principles
+
+collections:
+  talks:
+    output: true
+    permalink: /talks/:title/
+  speakers:
+    output: false
+  rooms:
+    output: false
+
+defaults:
+  - scope:
+      path: ''
+      type: talks
+    values:
+      layout: talk
+  - scope:
+      path: ''
+      type: speakers
+    values:
+      layout: speaker
+  - scope:
+      path: ''
+      type: rooms
+    values:
+      layout: room
+
+conference:
+  navigation:
+    logo:
+      name: 'Logic Group UGent'
+      url: 'https://logicseminar.ugent.be'
+    breakpoint: md
+    links:
+      - name: Program
+        relative_url: /program/
+        disabled: true
+      - name: Talks
+        relative_url: /talks/
+        disabled: true
+      - name: Location
+        relative_url: /location/
+      - name: Registration
+        disabled: true
+      - name: 'Previous Editions'
+        menu:
+          - name: 2023
+            absolute_url: 'https://wormshop2023.inf.unibe.ch/'
+          - name: 2019
+            absolute_url: 'http://www.joostjjoosten.nl/events/2019wormshop/'
+          - name: 2017
+            absolute_url: 'https://wrm17.mi-ras.ru/index.html'
+          - name: 2016
+            absolute_url: 'http://www.joostjjoosten.nl//Wormshop2016/index.html'
+          - name: 2014
+            absolute_url: 'https://personal.us.es/dfduque/PMR/'
+          - name: 2012
+            absolute_url: 'http://www.joostjjoosten.nl//WormShop/WormShop/WormShop.html'
+
+  location:
+    url: /location
+    navbar_title: Location
+    map:
+      home_coord: 51.02444674446438, 3.7110967454815635
+      map_provider: 'OpenStreetMap.Mapnik'
+      default_zoom: 17
+
+  program:
+    url: /program
+    time_steps: 30
