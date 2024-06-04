@@ -33,7 +33,7 @@ jobs:
           if [[ -n $BASE_URL ]]; then echo "baseurl: '$BASE_URL'" >> _config_gh-pages.yml; fi
 
       - name: Build website
-        run: bundle exec jekyll build --config _config_gh-pages.yml,_config.yml
+        run: bundle exec jekyll build --config _config.yml,_config_gh-pages.yml
 
       - name: Upload artifacts
         uses: actions/upload-pages-artifact@v3

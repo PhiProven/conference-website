@@ -5,6 +5,8 @@ title: 'Wormshop 2024'
 description: >-
   Workshop on Proof Theory, Modal Logic and Reflection Principles
 
+url: https://wormshop2024.ugent.be/
+
 collections:
   talks:
     output: true
