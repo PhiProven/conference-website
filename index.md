@@ -47,3 +47,4 @@ The aim of this workshop is to bring together experts in relevant fields in orde
 - Alakh Dhruv Chopra
 - Oriola Gjetaj
 - Vlad Lazar
+- Konstantinos Papafilippou
