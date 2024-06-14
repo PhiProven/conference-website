@@ -1,7 +1,7 @@
 ---
 layout: home
 ---
-The 8<sup>th</sup> edition of the Wormshop will take place at Ghent University, **September 2 - 5, 2024**.
+The 7<sup>th</sup> edition of the Wormshop will take place at Ghent University, **September 2 - 5, 2024**.
 
 ---
 
