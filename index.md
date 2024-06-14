@@ -28,30 +28,31 @@ The aim of this workshop is to bring together experts in relevant fields in orde
 ---
 
 ##### Steering committee
-- Joost Joosten
 - Lev Beklemishev
 - David Fernandez-Duque
+- Joost Joosten
 
 ##### Scientific committee
-- Joost Joosten
 - Lev Beklemishev
 - David Fernandez-Duque
-- Andreas Weiermann
-- Fedor Pakhomov
 - Iris van der Giessen
-- Antonina Kolokolova
-- Tatiana Yavorskaya
 - Jan Heylen
+- Joost Joosten
+- Antonina Kolokolova
+- Fedor Pakhomov
+- Andreas Weiermann
+- Tatiana Yavorskaya
 
 ##### Organizing committee
-- Christian Michaux
-- Andreas Weiermann
-- Fedor Pakhomov
-- Mojtaba Mojtahedi
-- Giovanni Solda
-- Daisie Rock
-- Philipp Provenzano
 - Alakh Dhruv Chopra
 - Oriola Gjetaj
 - Vlad Lazar
+- Brett McLean
+- Christian Michaux
+- Mojtaba Mojtahedi
+- Fedor Pakhomov
 - Konstantinos Papafilippou
+- Philipp Provenzano
+- Daisie Rock
+- Giovanni Solda
+- Andreas Weiermann
