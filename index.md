@@ -23,7 +23,7 @@ The aim of this workshop is to bring together experts in relevant fields in orde
 #### Important information
 
 **Contributed talks:** The call for abstracts is now open at [EasyChair](https://easychair.org/my/conference?conf=wormshop2024). **Deadline: July 15**  
-**Registration:** The registration is not yet open. The subscription fee will be **80&euro;**, free for PhD students at a Flemish univeristy.
+**Registration:** The registration is not yet open. The subscription fee will be **80&euro;**, free for PhD students at a Flemish university.
 
 ---
 
