@@ -44,15 +44,15 @@ The aim of this workshop is to bring together experts in relevant fields in orde
 - Tatiana Yavorskaya
 
 ##### Organizing committee
-- Alakh Dhruv Chopra
+- Christian Michaux
+- Fedor Pakhomov
+- Andreas Weiermann
+- Brett McLean
+- Mojtaba Mojtahedi
+- Daisie Rock
+- Giovanni Soldà
+- Alakh Chopra Dhruv
 - Oriola Gjetaj
 - Vlad Lazar
-- Brett McLean
-- Christian Michaux
-- Mojtaba Mojtahedi
-- Fedor Pakhomov
 - Konstantinos Papafilippou
 - Philipp Provenzano
-- Daisie Rock
-- Giovanni Solda
-- Andreas Weiermann
