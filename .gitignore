@@ -9,3 +9,6 @@ _site/
 
 ### Python ###
 __pycache__/
+
+### Ruby ###
+Gemfile.lock
