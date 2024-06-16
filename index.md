@@ -29,12 +29,12 @@ The aim of this workshop is to bring together experts in relevant fields in orde
 
 ##### Steering committee
 - Lev Beklemishev
-- David Fernandez-Duque
+- David Fernández-Duque
 - Joost Joosten
 
 ##### Scientific committee
 - Lev Beklemishev
-- David Fernandez-Duque
+- David Fernández-Duque
 - Iris van der Giessen
 - Jan Heylen
 - Joost Joosten
