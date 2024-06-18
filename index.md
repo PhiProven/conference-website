@@ -1,14 +1,21 @@
 ---
 layout: home
 ---
-The 7<sup>th</sup> edition of the Wormshop will take place at Ghent University, **September 2 - 5, 2024**.
+
+The 7<sup>th</sup> edition of the Wormshop will take place at Ghent University
+from **September 2 - 5, 2024**.
 
 ---
 
-The tradition of modal logics inspired on the notion of formal proof dates back to Gödel, but their study has gained great momentum in the last decade due to novel applications in the foundations of mathematics.
-Their study moreover requires the interaction of several disciplines in mathematical logic and beyond, including computational logic, proof theory, and point-set topology.
+The tradition of modal logics inspired by the notion of formal provability dates
+back to Gödel. However, their study has gained significant momentum in the last
+decade due to novel applications in the foundations of mathematics. This study
+also involves the interaction of several disciplines in mathematical logic and
+beyond, including computational logic, proof theory, and point-set topology.
 
-The aim of this workshop is to bring together experts in relevant fields in order to discuss recent advances and foster new collaborations. Topics include but are not restricted to:
+The aim of this workshop is to bring together experts in relevant fields to
+discuss recent advances and foster new collaborations. Topics include, but are
+not restricted to:
 
 - Provability logics and algebras
 - Lightweight fragments of modal logics
@@ -22,11 +29,20 @@ The aim of this workshop is to bring together experts in relevant fields in orde
 
 #### Important information
 
-**Contributed talks:** The call for abstracts is now open at [EasyChair](https://easychair.org/my/conference?conf=wormshop2024). **Deadline: July 15**  
-**Registration:** The registration is not yet open. The subscription fee will be **80&euro;**, free for PhD students at a Flemish university.
+**Contributed talks:** The call for abstracts is now open on
+[EasyChair](https://easychair.org/my/conference?conf=wormshop2024).
+**Deadline: July 15**.\
+**Registration:** The registration is not yet open. The fee will be
+**80&euro;**; free for PhD students at a Flemish university.
 
 ---
 
+#### Organization
+
+<div class="committee-lists">
+<div class="row justify-content-center">
+
+<div class="col-md-6 col-lg-4" markdown="1">
 ##### Steering committee
 - Lev Beklemishev
 - David Fernández-Duque
@@ -42,7 +58,9 @@ The aim of this workshop is to bring together experts in relevant fields in orde
 - Fedor Pakhomov
 - Andreas Weiermann
 - Tatiana Yavorskaya
+</div>
 
+<div class="col-md-6 col-lg-4" markdown="1">
 ##### Organizing committee
 - Christian Michaux
 - Fedor Pakhomov
@@ -51,8 +69,12 @@ The aim of this workshop is to bring together experts in relevant fields in orde
 - Mojtaba Mojtahedi
 - Daisie Rock
 - Giovanni Soldà
-- Alakh Chopra Dhruv
+- Alakh Dhruv Chopra
 - Oriola Gjetaj
 - Vlad Lazar
 - Konstantinos Papafilippou
 - Philipp Provenzano
+</div>
+
+</div>
+</div>
