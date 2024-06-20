@@ -40,7 +40,7 @@ not restricted to:
 #### Organization
 
 <div class="committee-lists">
-<div class="row justify-content-center">
+<div class="row">
 
 <div class="col-md-6 col-lg-4" markdown="1">
 ##### Steering committee
@@ -74,6 +74,26 @@ not restricted to:
 - Vlad Lazar
 - Konstantinos Papafilippou
 - Philipp Provenzano
+</div>
+
+</div>
+</div>
+
+#### Sponsors
+
+The Wormshop 2024 is sponsored by [UGent Doctoral Schools](https://www.ugent.be/doctoralschool/) with the support of the Flemish Government.
+
+<div class="sponsors container w-75 bg-white">
+<div class="row justify-content-center align-items-center text-center">
+
+<div class="col-auto" markdown="1">
+{:style="text-align:center;margin-top:16px;margin-bottom:16px"}
+[![Ghent University Doctoral Schools](/assets/sponsors/logo_doctoralschools.png){: width="250" }](https://www.ugent.be/doctoralschool/)
+</div>
+
+<div class="col-auto" markdown="1">
+{:style="text-align:center;margin-top:16px;margin-bottom:16px"}
+![Vlaamse Regering](/assets/sponsors/logo_flanders.jpg){: width="250" }
 </div>
 
 </div>
