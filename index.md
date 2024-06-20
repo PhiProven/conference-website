@@ -88,12 +88,12 @@ The Wormshop 2024 is sponsored by [UGent Doctoral Schools](https://www.ugent.be/
 
 <div class="col-auto" markdown="1">
 {:style="text-align:center;margin-top:16px;margin-bottom:16px"}
-[![Ghent University Doctoral Schools](/assets/sponsors/logo_doctoralschools.png){: width="250" }](https://www.ugent.be/doctoralschool/)
+[![Ghent University Doctoral Schools]({{ "/assets/sponsors/logo_doctoralschools.png" | relative_url }}){: width="250" }](https://www.ugent.be/doctoralschool/)
 </div>
 
 <div class="col-auto" markdown="1">
 {:style="text-align:center;margin-top:16px;margin-bottom:16px"}
-![Vlaamse Regering](/assets/sponsors/logo_flanders.jpg){: width="250" }
+![Vlaamse Regering]({{ "/assets/sponsors/logo_flanders.jpg" | relative_url }}){: width="250" }
 </div>
 
 </div>
