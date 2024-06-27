@@ -84,6 +84,7 @@ not restricted to:
 The Wormshop 2024 is sponsored by [UGent Doctoral Schools](https://www.ugent.be/doctoralschool/) with the support of the Flemish Government.
 
 <div class="sponsors container w-75 bg-white">
+
 <div class="row justify-content-center align-items-center text-center">
 
 <div class="col-auto" markdown="1">
@@ -92,9 +93,20 @@ The Wormshop 2024 is sponsored by [UGent Doctoral Schools](https://www.ugent.be/
 </div>
 
 <div class="col-auto" markdown="1">
+{:style="text-align:center;margin-top:16px;margin-bottom:16px;margin-left:25px;margin-right:25px"}
+[![Ghent University Faculty of Sciences]({{ "/assets/sponsors/logo_facultyofsciences.png" | relative_url }}){: width="200" }](https://www.ugent.be/we/en)
+</div>
+
+<div class="col-auto" markdown="1">
+{:style="text-align:center;margin-top:16px;margin-bottom:16px;margin-left:50px;margin-right:50px"}
+[![Research Foundation – Flanders]({{ "/assets/sponsors/logo_fwo.png" | relative_url }}){: width="150" }](https://www.fwo.be/en/)
+</div>
+
+<div class="col-auto" markdown="1">
 {:style="text-align:center;margin-top:16px;margin-bottom:16px"}
 ![Vlaamse Regering]({{ "/assets/sponsors/logo_flanders.jpg" | relative_url }}){: width="250" }
 </div>
 
 </div>
+
 </div>
