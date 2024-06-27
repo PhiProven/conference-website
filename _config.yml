@@ -41,9 +41,7 @@ conference:
     breakpoint: md
     links:
       - name: Program
-        menu:
-          - name: Overview of Talks
-            relative_url: /program/talks
+        disabled: true
       - name: Location
         relative_url: /location/
       - name: Registration
@@ -79,3 +77,8 @@ conference:
     main_categories:
       - name: Invited Talks
         color: primary
+      - name: Tutorials
+        color: secondary
+
+include:
+  - _assets/
