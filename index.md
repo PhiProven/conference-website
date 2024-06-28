@@ -2,10 +2,10 @@
 layout: home
 ---
 
-The 7<sup>th</sup> edition of the Wormshop will take place at Ghent University
-from **September 2 - 5, 2024**.
+<!-- The 7<sup>th</sup> edition of the Wormshop will take place at Ghent University -->
+<!-- from **September 2 - 5, 2024**. -->
 
----
+<!-- --- -->
 
 The tradition of modal logics inspired by the notion of formal provability dates
 back to Gödel. However, their study has gained significant momentum in the last
