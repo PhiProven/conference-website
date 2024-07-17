@@ -31,3 +31,10 @@ $lb-font-path-prefix: '{{ site.baseurl }}/_assets/fonts/librebaskerville';
   src: url("#{$lb-font-path-prefix}-italic.woff2") format("woff2"), url("#{$lb-font-path-prefix}-italic.woff") format("woff"), url("#{$lb-font-path-prefix}-italic.tff") format("truetype");
 }
 
+.navbar-brand {
+  font-family: "Libre Baskerville";
+}
+
+* {
+  font-family: "Libre Baskerville";
+}
