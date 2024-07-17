@@ -1,0 +1,33 @@
+---
+---
+
+$fa-font-path: '{{ site.baseurl }}/assets/webfonts';
+
+@import 'conference';
+
+/*
+ * Libre Baskerville font family
+ * URL: https://fonts.google.com/specimen/Libre+Baskerville
+ */
+
+$lb-font-path-prefix: '{{ site.baseurl }}/_assets/fonts/librebaskerville';
+
+@font-face {
+  font-family: "Libre Baskerville";
+  font-weight: 400;
+  font-style: normal;
+  src: url("#{$lb-font-path-prefix}-regular.woff2") format("woff2"), url("#{$lb-font-path-prefix}-regular.woff") format("woff"), url("#{$lb-font-path-prefix}-regular.tff") format("truetype");
+}
+@font-face {
+  font-family: "Libre Baskerville";
+  font-weight: 700;
+  font-style: normal;
+  src: url("#{$lb-font-path-prefix}-bold.woff2") format("woff2"), url("#{$lb-font-path-prefix}-bold.woff") format("woff"), url("#{$lb-font-path-prefix}-bold.tff") format("truetype");
+}
+@font-face {
+  font-family: "Libre Baskerville";
+  font-weight: 400;
+  font-style: italic;
+  src: url("#{$lb-font-path-prefix}-italic.woff2") format("woff2"), url("#{$lb-font-path-prefix}-italic.woff") format("woff"), url("#{$lb-font-path-prefix}-italic.tff") format("truetype");
+}
+

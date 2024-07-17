@@ -38,8 +38,13 @@
             background-size:cover;
             height:500px">
         <div class="col mb-5">
-            <div class="container py-1"
-                 style="margin-left:0;background-color:#e9ecefaa">
+            <div class="container py-2 text-center"
+                 style="margin-left:0;
+                        background-color:#e9ecefaa;
+                        font-family: 'Libre Baskerville';
+                        border: 0.05rem solid gray;
+                        border-bottom: 0.3rem solid gray"
+                        >
                 <h1 class="display-3 text-break">
                     {% if site.conference.main.logo.img %}
                     <img src="{{ site.conference.main.logo.img | prepend: '/assets/images/' | prepend: site.baseurl }}" class="w-75 d-none d-md-inline" alt="{{ site.title }}" />
@@ -56,7 +61,7 @@
                     </p>
                     {% endif %}
                     <p class="lead">
-                        <h4><b>September 2–5, 2024</b></h4>
+                        <h2>September 2–5, 2024</h2>
                     </p>
             </div>
         </div>
