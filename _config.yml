@@ -47,7 +47,12 @@ conference:
     breakpoint: md
     links:
       - name: Program
-        disabled: true
+        disabled: false
+        menu:
+          - name: Talks Overview
+            relative_url: /talks/
+          - name: Speakers Overview
+            relative_url: /speakers/
       - name: Location
         relative_url: /location/
       - name: Registration

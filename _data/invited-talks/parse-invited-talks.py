@@ -1,24 +1,55 @@
 import csv
 import re
+import sys
+import urllib.request
 
 
 csv_filename = 'Wormshop 7th Edition Invited Speakers - Sheet1.csv'
+sheet_export_url = 'https://docs.google.com/spreadsheets/d/1DtVh5k8sN_gMZaYPgJ-LFFapAP1z7knAh3swxIEaGtQ/export?format=csv&id=1DtVh5k8sN_gMZaYPgJ-LFFapAP1z7knAh3swxIEaGtQ&gid=0'
+
+
+def prompt_choice(prompt_string, default_yes=True, exit_on_no=False):
+    choice_string = "[Y/n]" if default_yes else "[y/N]"
+    print(prompt_string, choice_string, end='\t')
+    answer = input()
+    if (answer == '' and default_yes) or answer.lower() == 'y':
+        return True
+    else:
+        if exit_on_no:
+            sys.exit(0)
+        else:
+            return False
 
 def main():
-    csv_to_invited_speakers_list()
+    if prompt_choice("Download sheet?", default_yes=False):
+        download_google_sheet()
+    if prompt_choice("Print list of speakers for front page?", default_yes=False):
+        csv_to_invited_speakers_list(prefix='  - ')
+    if prompt_choice("Export to _speakers/ and _talks/?", default_yes=False):
+        csv_to_speakers()
 
 
-def csv_to_invited_speakers_list():
+def download_google_sheet():
+    print("Downloading...")
+    try:
+        urllib.request.urlretrieve(sheet_export_url, csv_filename)
+        print("Done!")
+    except Exception as err:
+        print("Could not export sheet!")
+        print(err)
+
+
+def csv_to_invited_speakers_list(prefix=''):
     with open(csv_filename) as csvfile:
         invited_reader = csv.DictReader(csvfile)
         invited = list(invited_reader)
 
         for speaker in invited:
-            speaker_string = ""
+            speaker_string = prefix
             if speaker['Website'] == 'N/A':
-                speaker_string = speaker['Name']
+                speaker_string += speaker['Name']
             else:
-                speaker_string = "[{Name}]({Website} \"{Name}\")".format(**speaker)
+                speaker_string += "[{Name}]({Website} \"{Name}\")".format(**speaker)
             if speaker['Tutorial?'] == 'Yes':
                 speaker_string += " (Tutorial)"
             speaker['string'] = speaker_string
@@ -55,7 +86,7 @@ def csv_to_speakers():
             filename_speaker_md = get_valid_filename(speaker['Name']) + '.md'
             filename_speaker_md = filename_speaker_md.lower()
 
-            with open('../_speakers/' + filename_speaker_md, 'w') as speaker_file:
+            with open('../../_speakers/invited/' + filename_speaker_md, 'w') as speaker_file:
                 speaker_file.write(speaker_md)
 
         for speaker in invited:
@@ -81,7 +112,7 @@ def csv_to_speakers():
             filename_talk_md = "Invited-" + get_valid_filename(speaker['Name']) + '.md'
             filename_talk_md = filename_talk_md.lower()
 
-            with open('../_talks/' + filename_talk_md, 'w') as talk_file:
+            with open('../../_talks/invited/' + filename_talk_md, 'w') as talk_file:
                 talk_file.write(talk_md)
 
 
