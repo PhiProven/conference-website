@@ -36,6 +36,11 @@ defaults:
 
 conference:
   info_bars:
+    - title: Registrations is now open
+      color: info
+      main_only: true
+      text: |
+        Further information can be found [here](/registration).
     - title: Deadline extended
       color: info
       main_only: true
@@ -57,7 +62,7 @@ conference:
       - name: Location
         relative_url: /location/
       - name: Registration
-        disabled: true
+        relative_url: /registration/
       - name: 'Previous Editions'
         menu:
           - name: 2023
