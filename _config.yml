@@ -94,3 +94,6 @@ conference:
 
 include:
   - _assets/
+
+kramdown:
+  math_engine: katex

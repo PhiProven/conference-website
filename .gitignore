@@ -6,6 +6,7 @@ _site/
 
 ### Bundler ###
 .bundle/
+vendor/
 
 ### Python ###
 __pycache__/
