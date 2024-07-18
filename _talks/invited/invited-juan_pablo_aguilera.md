@@ -4,4 +4,5 @@ speakers:
   - Juan Pablo Aguilera
 categories:
   - Invited Talks
+katex: true
 ---

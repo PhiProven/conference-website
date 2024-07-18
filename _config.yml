@@ -87,10 +87,10 @@ conference:
 
   talks:
     main_categories:
-      - name: Invited Talks
-        color: primary
       - name: Tutorials
         color: secondary
+      - name: Invited Talks
+        color: primary
 
 include:
   - _assets/

@@ -1,13 +1,3 @@
----
-name: Boundedly axiomatizable theories meet (In)completeness
-speakers:
-  - Ali Enayat
-categories:
-  - Invited Talks
-  - Tutorials
-katex: true
----
-
 Recently Albert Visser and I wrote a paper on the incompleteness of boundedly
 axiomatizable theories [[1]](#Enayat2023), which arose from a question posed by
 Steffen Lempp and Dino Rossegger in the context of calibrating the Borel
@@ -31,4 +21,3 @@ developments.
 <a name="Enayat2023" href="https://arxiv.org/abs/2311.14025">[1] A. Enayat, A.
 Visser, Incompleteness of boundedly axiomatizable theories, *arXiv:2311.14025
 [math.LO]*, 2023</a>
-

@@ -1,4 +1,5 @@
 import csv
+import os.path
 import re
 import sys
 import urllib.request
@@ -25,8 +26,10 @@ def main():
         download_google_sheet()
     if prompt_choice("Print list of speakers for front page?", default_yes=False):
         csv_to_invited_speakers_list(prefix='  - ')
-    if prompt_choice("Export to _speakers/ and _talks/?", default_yes=False):
+    if prompt_choice("Export to _speakers/?", default_yes=False):
         csv_to_speakers()
+    if prompt_choice("Export to _talks/?", default_yes=False):
+        csv_to_talks()
 
 
 def download_google_sheet():
@@ -89,27 +92,51 @@ def csv_to_speakers():
             with open('../../_speakers/invited/' + filename_speaker_md, 'w') as speaker_file:
                 speaker_file.write(speaker_md)
 
+
+def csv_to_talks():
+    with open(csv_filename) as csvfile:
+        invited_reader = csv.DictReader(csvfile)
+        invited = list(invited_reader)
+
         for speaker in invited:
             talk_md = '\n'.join([
                 "---",
-                # "name: {Title}",
-                "name: Talk by {Name}",
+                "name: {Title}",
                 "speakers:",
                 "  - {Name}",
                 "categories:",
-                "  - Invited Talks"
+                "  - Invited Talks",
             ])
             if speaker['Tutorial?'] == "Yes":
                 talk_md = '\n'.join([talk_md] + [
                     "  - Tutorials"
                 ])
             talk_md = '\n'.join([talk_md] + [
+                "katex: true",
+            ])
+            if '$' in speaker['Title']:
+                talk_md = '\n'.join([talk_md] + [
+                    "mathjax: true",
+                ])
+            talk_md = '\n'.join([talk_md] + [
                 "---",
                 ""
             ])
 
+            if speaker['Title'] == "":
+                speaker['Title'] = "Talk by " + speaker['Name']
+
             talk_md = talk_md.format(**speaker)
-            filename_talk_md = "Invited-" + get_valid_filename(speaker['Name']) + '.md'
+
+            if speaker['Abstract'] != "":
+                if os.path.isfile(speaker['Abstract']):
+                    with open(speaker['Abstract'], 'r') as abstract_md:
+                        abstract = abstract_md.read()
+                        talk_md += "\n" + abstract + "\n"
+                else:
+                    print("File does not exist!", speaker['Abstract'])
+
+            filename_talk_md = "invited-" + get_valid_filename(speaker['Name']) + '.md'
             filename_talk_md = filename_talk_md.lower()
 
             with open('../../_talks/invited/' + filename_talk_md, 'w') as talk_file:

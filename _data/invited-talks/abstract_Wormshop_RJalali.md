@@ -1,12 +1,3 @@
----
-name: Admissibility of Visser's Rules in Intuitionistic Modal Logics
-speakers:
-  - Raheleh Jalali
-categories:
-  - Invited Talks
-katex: true
----
-
 We study the connection between the form of the primitive rules of a proof
 system and the rules the system admits. We introduce a general and syntactically
 defined family of sequent-style calculi over the modal language and its
@@ -27,4 +18,3 @@ On the negative side, we show that if a strong enough intuitionistic modal logic
 (satisfying a mild technical condition) does not admit at least one of Visser's
 rules, then it cannot have a constructive sequent calculus. Consequently, no
 intermediate logic other than $$\sf IPC$$ has a constructive sequent calculus.
-

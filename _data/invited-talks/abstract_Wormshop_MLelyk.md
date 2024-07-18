@@ -1,13 +1,3 @@
----
-name: Categoricity-like notions for first-order theories
-speakers:
-  - Mateusz Łełyk
-categories:
-  - Invited Talks
-  - Tutorials
-katex: true
----
-
 The tutorial is devoted to the exposition of recent results revolving around the
 following vague question:
 
@@ -63,4 +53,3 @@ Albert Visser, A refined interpretation of intuitionistic logic by means of atom
 
 <a name="AEnayatMLelyk" href="www.researchgate.net/publication/377931753_Categoricity-like_properties_in_the_first-order_realm">[3]
 Ali Enayat, Mateusz Łełyk, Categoricity-like properties in the first-order realm</a>
-
