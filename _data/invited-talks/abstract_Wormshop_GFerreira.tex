@@ -1,0 +1,75 @@
+\documentclass[a4paper]{article} %
+\usepackage{graphicx,amssymb,url} %
+\textwidth=12cm \hoffset=-1.2cm %
+\textheight=25cm \voffset=-2cm %
+\pagestyle{empty} %
+
+\date{} %
+
+\begin{document}
+
+
+% Please, do not change any of the above lines
+% ===========================================
+% Type down your paper title
+\title{Atomization alternatives in the Russell-Prawitz translation}
+
+% Authors
+\author{Gilda Ferreira\\ 
+       {\normalsize Universidade Aberta and CMAFcIO (Portugal)} 
+       }%
+
+%\author{Author 1, Author 2, Author 3 \\ %
+%	{\normalsize Affiliation 1 (Country)} \\ \\
+%	Author 4 \\ % If any other author with different Affilation
+%	{\normalsize Affiliation 2 (Country)} \\ \\ % Affiliation 2 (if needed)
+	% New author \\
+	% New affiliation \\
+	% Add authors and affiliation as needed
+	%{\small \tt{author@university.com}} % Only one corresponding e-mail
+%}%
+
+
+\maketitle
+
+\thispagestyle{empty}
+
+
+In this presentation, we explore various versions of the Russell-Prawitz translation, which maps intuitionistic propositional calculus to second-order propositional logic. The target system, introduced independently by Jean-Yves Girard and John Reynolds, is known as System F or polymorphic lambda-calculus. We analyze some properties of System F and the translation, with a focus on atomic polymorphism and atomization conversions. Our investigation examines the impact of introducing new atomization conversions to System F \cite{JoseESpiritoSanto} and the more radical option of replacing System F with an atomic polymorphic target system. Specifically, we cover:
+
+\begin{itemize}
+	\item[$\bullet$] the original atomic polymorphic variant based on instantiation overflow \cite{Ferreira06,FerreiraFerreira12}.
+	\item[$\bullet$] Enhancements such as a variant that improves proof and reduction sequence sizes through an improved form of instantiation overflow \cite{PistoneTranchiniPetrolo}.
+	\item[$\bullet$] A variant based on the admissibility of disjunction and absurdity elimination rules, resulting in more compact proves and reduced administrative reductions \cite{JoseESpiritoSanto2019}.
+	\item[$\bullet$] An approach that produces an image of intuitionistic propositional calculus truly free from commuting conversions \cite{JoseESpiritoSanto2024}.
+\end{itemize}
+
+This exploration includes significant joint work with José Espírito Santo.
+
+
+\begin{thebibliography}{}
+	
+\bibitem{JoseESpiritoSanto2019}
+J. Esp\'{i}rito Santo, G. Ferreira, A refined interpretation of intuitionistic logic by means of atomic polymorphism, \emph{Studia Logica}, \textbf{108}, pp. 477-507, 2020.\\
+
+\bibitem{JoseESpiritoSanto}
+J. Esp\'{i}rito Santo, G. Ferreira, The Russell-Prawitz embedding and the atomization of universal instantiation, \emph{Logic Journal of the IGPL}, \textbf{29(5)}, pp. 823-858, 2021.\\
+
+\bibitem{JoseESpiritoSanto2024}
+J. Esp\'{i}rito Santo, G. Ferreira, How to avoid the commuting conversions of IPC, 48 pages. (submitted) https://arxiv.org/pdf/2402.16171.pdf\\
+
+\bibitem{Ferreira06}
+        F. Ferreira, Comments on predicative logic, \emph{Journal of Philosophical Logic}, \textbf{35}, pp. 1--8, 2006.\\
+  
+\bibitem{FerreiraFerreira12}
+F. Ferreira, G. Ferreira, Atomic polymorphism, \emph{The Journal of Symbolic Logic}, \textbf{78(1)}, pp. 260-274, 2013.\\
+
+\bibitem{PistoneTranchiniPetrolo}
+P. Pistone, L. Tranchini, M. Petrolo, The naturality of natural deduction (II): On atomic polymorphism and generalized propositional connectives, \emph{Studia Logica}, \textbf{110}, pp. 545-592, 2022. 
+
+  \end{thebibliography}
+% ===========================================
+
+
+
+\end{document}
