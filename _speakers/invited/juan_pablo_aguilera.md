@@ -5,4 +5,5 @@ last_name: Aguilera
 links:
   - name: Website
     absolute_url: https://juan.ag/
+    icon: house-user
 ---

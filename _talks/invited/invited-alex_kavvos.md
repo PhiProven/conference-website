@@ -1,5 +1,5 @@
 ---
-name: Talk by Alex Kavvos
+name: (To Be Announced)
 speakers:
   - Alex Kavvos
 categories:

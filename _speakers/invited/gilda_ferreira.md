@@ -5,4 +5,5 @@ last_name: Ferreira
 links:
   - name: Website
     absolute_url: https://webpages.ciencias.ulisboa.pt/~gmferreira/
+    icon: house-user
 ---

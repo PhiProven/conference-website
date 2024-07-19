@@ -1,5 +1,5 @@
 ---
-name: Talk by Juan Pablo Aguilera
+name: (To Be Announced)
 speakers:
   - Juan Pablo Aguilera
 categories:

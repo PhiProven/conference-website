@@ -5,4 +5,5 @@ last_name: Łełyk
 links:
   - name: Website
     absolute_url: https://sites.google.com/uw.edu.pl/lelyk
+    icon: house-user
 ---

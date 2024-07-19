@@ -78,7 +78,8 @@ def csv_to_speakers():
                 speaker_md = '\n'.join([speaker_md] + [
                     "links:",
                     "  - name: Website",
-                    "    absolute_url: {Website}"
+                    "    absolute_url: {Website}",
+                    "    icon: house-user",
                 ])
             speaker_md = '\n'.join([speaker_md] + [
                 "---",
@@ -124,7 +125,8 @@ def csv_to_talks():
             ])
 
             if speaker['Title'] == "":
-                speaker['Title'] = "Talk by " + speaker['Name']
+                speaker['Title'] = "(To Be Announced)"
+                # speaker['Title'] = "\"TBA: invited talk by " + speaker['Name'] + "\""
 
             talk_md = talk_md.format(**speaker)
 
