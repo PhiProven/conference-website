@@ -1,5 +1,5 @@
 ---
-name: Boundedly axiomatizable theories meet (In)completeness
+name: Boundedly axiomatizable theories meet (in)completeness
 speakers:
   - Ali Enayat
 categories:

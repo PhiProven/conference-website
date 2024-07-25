@@ -49,12 +49,14 @@ def csv_to_invited_speakers_list(prefix=''):
 
         for speaker in invited:
             speaker_string = prefix
-            if speaker['Website'] == 'N/A':
-                speaker_string += speaker['Name']
-            else:
-                speaker_string += "[{Name}]({Website} \"{Name}\")".format(**speaker)
+
+            speaker_page_name = get_valid_filename(speaker['Name']).lower()
+            speaker['SpeakerPage'] = '{{ site.baseurl }}/speakers/invited/' + speaker_page_name
+            speaker_string += "[{Name}]({SpeakerPage} \"{Name}\")".format(**speaker)
+
             if speaker['Tutorial?'] == 'Yes':
                 speaker_string += " (Tutorial)"
+
             speaker['string'] = speaker_string
 
         for speaker in sorted(invited, key=lambda x: get_name_transliteration(x['Last name'])):
@@ -72,7 +74,8 @@ def csv_to_speakers():
                 "---",
                 "name: {Name}",
                 "first_name: {First name}",
-                "last_name: {Last name}"
+                "last_name: {Last name}",
+                "university: {Institute}",
             ])
             if speaker['Website'] != 'N/A':
                 speaker_md = '\n'.join([speaker_md] + [
@@ -82,6 +85,7 @@ def csv_to_speakers():
                     "    icon: house-user",
                 ])
             speaker_md = '\n'.join([speaker_md] + [
+                "mathjax: true",
                 "---",
                 ""
             ])

@@ -1,5 +1,5 @@
 ---
-name: Admissibility of Visser's Rules in Intuitionistic Modal Logics
+name: Admissibility of Visser's rules in intuitionistic modal logics
 speakers:
   - Raheleh Jalali
 categories:

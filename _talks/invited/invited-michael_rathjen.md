@@ -1,5 +1,5 @@
 ---
-name: Upper bounds for the strength of the graph minor theorem and friends.
+name: Upper bounds for the strength of the graph minor theorem and friends
 speakers:
   - Michael Rathjen
 categories:

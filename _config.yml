@@ -97,6 +97,9 @@ conference:
       - name: Invited Talks
         color: primary
 
+  speakers:
+    show_university: true
+
 include:
   - _assets/
 

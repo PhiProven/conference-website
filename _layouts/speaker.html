@@ -7,9 +7,14 @@
     {{ site.data.lang[site.conference.lang].speaker.title | default: "Speaker" }}
   </p>
 
-  <h1 class="font-weight-light mb-3 text-break">
+  <h1 class="font-weight-light mb-0">
     {{ speaker.first_name }} {{ speaker.last_name }}
   </h1>
+  {%- if site.conference.speakers.show_university and speaker.university -%}
+  <h6 class="font-weight-light font-italic mb-3 text-break">
+    {{ speaker.university }}
+  </h6>
+  {%- endif -%}
 
   {{ content }}
 
