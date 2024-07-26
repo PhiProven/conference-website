@@ -36,7 +36,7 @@ defaults:
 
 conference:
   info_bars:
-    - title: Registrations is now open
+    - title: Registrations are now open
       color: info
       main_only: true
       text: |
