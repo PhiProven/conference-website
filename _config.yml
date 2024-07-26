@@ -41,11 +41,6 @@ conference:
       main_only: true
       text: |
         Further information can be found [here](/registration).
-    - title: Deadline extended
-      color: info
-      main_only: true
-      text: |
-        The submission deadline for contributed talks has been extended to July 25.
   navigation:
     logo:
       name: 'Logic Group UGent'

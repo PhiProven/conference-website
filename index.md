@@ -29,9 +29,8 @@ not restricted to:
 
 #### Important information
 
-**Contributed talks:** The call for abstracts is now open on
-[EasyChair](https://easychair.org/my/conference?conf=wormshop2024).
-**Deadline: ~~July 15~~ (Extended to) July 25**.\
+**Contributed talks:** The call for abstracts is now **closed**. The deadline
+was July 25.\
 **Registration:** [The registration is open]({{ "/registration" | prepend:
 site.baseurl }}). The fee is **80 &euro;**; free for PhD students at a Flemish
 university.
