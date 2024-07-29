@@ -2,7 +2,7 @@
 name: Ali Enayat
 first_name: Ali
 last_name: Enayat
-university: U. Göteborg
+university: University of Gothenburg
 links:
   - name: Website
     absolute_url: https://www.gu.se/en/about/find-staff/alienayat

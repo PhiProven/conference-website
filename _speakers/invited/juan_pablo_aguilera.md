@@ -2,7 +2,7 @@
 name: Juan Pablo Aguilera
 first_name: Juan Pablo
 last_name: Aguilera
-university: TU Wien
+university: Vienna University of Technology
 links:
   - name: Website
     absolute_url: https://juan.ag/
