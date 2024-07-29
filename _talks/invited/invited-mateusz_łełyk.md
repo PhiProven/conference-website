@@ -55,12 +55,18 @@ Proof that all sufficiently strong theories can be axiomatized by a scheme which
 
 #### References
 
+<a name="AVisser2004"
+   href="https://dspace.library.uu.nl/bitstream/1874/26909/1/preprint228.pdf">
+   [1] Albert Visser, Categories of theories and interpretations
+</a>
 
-<a name="AVisser2004" href="https://dspace.library.uu.nl/bitstream/1874/26909/1/preprint228.pdf">[1]
-Albert Visser, A refined interpretation of intuitionistic logic by means of atomic polymorphism</a>
+<a name="AEnayat"
+   href="https://arxiv.org/abs/1702.07093">
+   [2] Ali Enayat, Variations on a Visserian theme
+</a>
 
-<a name="AEnayat" href="https://arxiv.org/abs/1702.07093">[2] Ali Enayat, Variations on a Visserian theme</a>
-
-<a name="AEnayatMLelyk" href="www.researchgate.net/publication/377931753_Categoricity-like_properties_in_the_first-order_realm">[3]
-Ali Enayat, Mateusz Łełyk, Categoricity-like properties in the first-order realm</a>
+<a name="AEnayatMLelyk"
+   href="www.researchgate.net/publication/377931753_Categoricity-like_properties_in_the_first-order_realm">
+   [3] Ali Enayat, Mateusz Łełyk, Categoricity-like properties in the first-order realm
+</a>
 
