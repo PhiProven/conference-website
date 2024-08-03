@@ -77,7 +77,7 @@ conference:
     url: /location
     navbar_title: Location
     map:
-      home_coord: 51.02444674446438, 3.7110967454815635
+      home_coord: 51.05638927831991, 3.7158379311818135
       map_provider: 'OpenStreetMap.Mapnik'
       default_zoom: 17
 
