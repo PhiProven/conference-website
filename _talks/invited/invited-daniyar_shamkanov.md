@@ -1,5 +1,5 @@
 ---
-name: Topological semantics of the predicate modal calculus $\sf{QGL}$ extended with non-well-founded proofs
+name: Topological semantics of the predicate modal calculus QGL extended with non-well-founded proofs
 speakers:
   - Daniyar Shamkanov
 categories:
