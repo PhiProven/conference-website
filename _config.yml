@@ -91,6 +91,8 @@ conference:
         color: secondary
       - name: Invited Talks
         color: primary
+      - name: Contributed Talks
+        color: info
 
   speakers:
     show_university: true
