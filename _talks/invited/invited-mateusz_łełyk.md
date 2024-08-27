@@ -66,7 +66,7 @@ Proof that all sufficiently strong theories can be axiomatized by a scheme which
 </a>
 
 <a name="AEnayatMLelyk"
-   href="www.researchgate.net/publication/377931753_Categoricity-like_properties_in_the_first-order_realm">
+   href="https://www.researchgate.net/publication/377931753_Categoricity-like_properties_in_the_first-order_realm">
    [3] Ali Enayat, Mateusz Łełyk, Categoricity-like properties in the first-order realm
 </a>
 
