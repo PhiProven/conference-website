@@ -3,7 +3,6 @@ name: Boundedly axiomatizable theories meet (in)completeness
 speakers:
   - Ali Enayat
 categories:
-  - Invited Talks
   - Tutorials
 katex: true
 ---

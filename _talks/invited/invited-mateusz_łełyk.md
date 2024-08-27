@@ -3,7 +3,6 @@ name: Categoricity-like notions for first-order theories
 speakers:
   - Mateusz Łełyk
 categories:
-  - Invited Talks
   - Tutorials
 katex: true
 ---
