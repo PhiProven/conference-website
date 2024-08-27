@@ -70,6 +70,10 @@
 
   {{ content }}
 
+  {%- if talk.abstract -%}
+    <iframe src="{{ talk.abstract | prepend: 'documents/abstracts/' | relative_url }}" class="talk-abstract-embed"></iframe>
+  {%- endif -%}
+
   {% include partials/get_link_types.html %}
 
   {% if has_icon_links %}

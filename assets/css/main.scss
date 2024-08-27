@@ -38,3 +38,9 @@ $lb-font-path-prefix: '{{ site.baseurl }}/_assets/fonts/librebaskerville';
 * {
   font-family: "Libre Baskerville";
 }
+
+.talk-abstract-embed {
+  border-style: none;
+  width: 100%;
+  height: 1500px;
+}
