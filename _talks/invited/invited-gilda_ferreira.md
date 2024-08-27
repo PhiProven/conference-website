@@ -1,5 +1,5 @@
 ---
-name: Atomization alternatives in the Russel-Prawitz translation
+name: Atomization alternatives in the Russell-Prawitz translation
 speakers:
   - Gilda Ferreira
 categories:
