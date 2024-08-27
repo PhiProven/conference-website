@@ -50,6 +50,8 @@ conference:
       - name: Program
         disabled: false
         menu:
+          - name: Program Overview
+            relative_url: /program/
           - name: Talks Overview
             relative_url: /talks/
           - name: Speakers Overview

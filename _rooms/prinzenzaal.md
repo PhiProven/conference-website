@@ -1,0 +1,4 @@
+---
+name: Prinzenzaal
+hide: true
+---
