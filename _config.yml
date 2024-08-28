@@ -106,6 +106,8 @@ conference:
 
 include:
   - _assets/
+  - .default.html
+  - .htaccess
 
 kramdown:
   math_engine: katex
