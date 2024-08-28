@@ -11,7 +11,7 @@ days:
     - name: Boundedly axiomatizable theories meet (in)completeness
       time_start: '11:00'
       time_end: '12:00'
-    - name: Topological semantics of the predicate modal calculus QGL extended with non-well-founded proofs
+    - name: Admissibility of Visser's rules in intuitionistic modal logics
       time_start: '13:30'
       time_end: '14:15'
     - name: Upper bounds for the strength of the graph minor theorem and friends
@@ -83,7 +83,7 @@ days:
     - name: Atomization alternatives in the Russell-Prawitz translation
       time_start: '13:30'
       time_end: '14:15'
-    - name: Admissibility of Visser's rules in intuitionistic modal logics
+    - name: Topological semantics of the predicate modal calculus QGL extended with non-well-founded proofs
       time_start: '14:15'
       time_end: '15:00'
     - name: Robert Feys on Modal Logic
