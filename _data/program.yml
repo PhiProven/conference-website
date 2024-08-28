@@ -8,15 +8,24 @@ days:
     - name: Categoricity-like notions for first-order theories
       time_start: '9:30'
       time_end: '10:30'
+    - name: Coffee Break
+      time_start: '10:30'
+      time_end: '11:00'
     - name: Boundedly axiomatizable theories meet (in)completeness
       time_start: '11:00'
       time_end: '12:00'
+    - name: Lunch
+      time_start: '12:00'
+      time_end: '13:30'
     - name: Admissibility of Visser's rules in intuitionistic modal logics
       time_start: '13:30'
       time_end: '14:15'
     - name: Upper bounds for the strength of the graph minor theorem and friends
       time_start: '14:15'
       time_end: '15:00'
+    - name: Coffee Break
+      time_start: '15:00'
+      time_end: '15:30'
     - name: Proof-theoretic remarks on extensions of the Kripke-Feferman theory of truth
       time_start: '15:30'
       time_end: '16:00'
@@ -35,15 +44,24 @@ days:
     - name: Categoricity-like notions for first-order theories
       time_start: '9:30'
       time_end: '10:30'
+    - name: Coffee Break
+      time_start: '10:30'
+      time_end: '11:00'
     - name: Boundedly axiomatizable theories meet (in)completeness
       time_start: '11:00'
       time_end: '12:00'
+    - name: Lunch
+      time_start: '12:00'
+      time_end: '13:30'
     - name: New models of GL.3
       time_start: '13:30'
       time_end: '14:15'
     - name: Two-dimensional Kripke semantics
       time_start: '14:15'
       time_end: '15:00'
+    - name: Coffee Break
+      time_start: '15:00'
+      time_end: '15:30'
     - name: How constructive is Gödel's Dialectica translation?
       time_start: '15:30'
       time_end: '16:00'
@@ -62,12 +80,24 @@ days:
     - name: Strong Completeness Below GLP
       time_start: '10:00'
       time_end: '10:30'
+    - name: Coffee Break
+      time_start: '10:30'
+      time_end: '11:00'
     - name: Towards Intuitionistic Polymodal Provability Logic
       time_start: '11:00'
       time_end: '11:30'
     - name: IGL without sharps
       time_start: '11:30'
       time_end: '12:00'
+    - name: Lunch
+      time_start: '12:00'
+      time_end: '13:30'
+    #- name: Boat Trip
+    #  time_start: '17:20'
+    #  time_end: '18:45'
+    #- name: Social Dinner
+    #  time_start: '18:45'
+    #  time_end: '21:00'
 - name: Thursday
   abbr: Thu
   date: 2024-09-05
@@ -77,15 +107,24 @@ days:
     - name: Categoricity-like notions for first-order theories
       time_start: '9:30'
       time_end: '10:30'
+    - name: Coffee Break
+      time_start: '10:30'
+      time_end: '11:00'
     - name: Boundedly axiomatizable theories meet (in)completeness
       time_start: '11:00'
       time_end: '12:00'
+    - name: Lunch
+      time_start: '12:00'
+      time_end: '13:30'
     - name: Atomization alternatives in the Russell-Prawitz translation
       time_start: '13:30'
       time_end: '14:15'
     - name: Topological semantics of the predicate modal calculus QGL extended with non-well-founded proofs
       time_start: '14:15'
       time_end: '15:00'
+    - name: Coffee Break
+      time_start: '15:00'
+      time_end: '15:30'
     - name: Robert Feys on Modal Logic
       time_start: '15:30'
       time_end: '16:00'

@@ -96,6 +96,10 @@ conference:
         color: primary
       - name: Contributed Talks
         color: info
+      - name: Breaks
+        color: light
+      - name: Events
+        color: success
 
   speakers:
     show_university: true
