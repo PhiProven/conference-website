@@ -86,6 +86,7 @@ conference:
   program:
     url: /program
     time_steps: 30
+    show_alltimes: true
 
   talks:
     main_categories:
