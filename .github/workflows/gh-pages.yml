@@ -18,6 +18,11 @@ jobs:
         with:
           submodules: true
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '*'
+
       - name: Setup Ruby and gems
         uses: ruby/setup-ruby@v1
         with:
