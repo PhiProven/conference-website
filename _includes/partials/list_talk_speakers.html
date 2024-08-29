@@ -11,10 +11,10 @@
   {%- else -%}
     <a class="text-reset" href="{{ speaker.url | prepend: site.baseurl }}">
       {{- speaker_short -}}
-      {%- if site.conference.speakers.show_university and speaker.university -%}
-      <sup>{{- forloop.index -}}</sup>
-      {%- endif -%}
     </a>
+    {%- if site.conference.speakers.show_university and speaker.university -%}
+    <sup>{{- forloop.index -}}</sup>
+    {%- endif -%}
   {%- endif -%}
 
   {%- unless forloop.last %}
@@ -26,10 +26,22 @@
 
 
 {%- if site.conference.speakers.show_university -%}
+  <br>
   {% for speaker_name in talk.speakers -%}
     {%- assign speaker = site.speakers | where: 'name', speaker_name | first -%}
-      {%- if speaker.university -%}
-      <br><i><sup><sup>{{- forloop.index -}}</sup>{{ speaker.university }}</sup></i>
+    {%- if speaker.university -%}
+      {%- if speaker.university == last_university -%}
+        <i><sup>,{{- forloop.index -}}</sup></i>
+      {%- else -%}
+        {%- if last_university -%}
+          <i> {{ last_university }}&emsp;</i>
+        {%- endif -%}
+          <i><sup>{{- forloop.index -}}</sup></i>
+          {%- assign last_university = speaker.university -%}
       {%- endif -%}
-  {%- endfor -%}
+    {%- endif -%}
+  {%endfor -%}
+  {%- if last_university -%}
+    <i> {{ last_university }}</i>
+  {%- endif -%}
 {%- endif -%}

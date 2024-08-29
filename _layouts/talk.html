@@ -29,11 +29,16 @@
   </p>
 
   <div class="mb-3 p-0">
+    {% assign scheduled = false %}
     {% for d in site.data.program.days -%}
       {%- include partials/get_day_hash.html -%}
       {%- for r in d.rooms -%}
         {%- for t in r.talks -%}
           {%- if talk.name == t.name -%}
+
+            {% if scheduled %}
+              <span> + </span>
+            {% endif %}
 
             {%- if site.conference.live -%}
               {%- include partials/get_talk_timestamp.html -%}
@@ -51,7 +56,7 @@
               {%- include partials/show_live_button.html -%}
             {%- endif -%}
 
-            {%- unless site.conference.location.hide -}
+            {%- unless site.conference.location.hide -%}
             {%- assign room = site.rooms | where: 'name', r.name | first -%}
             <span class="d-none d-sm-inline ml-1">
               {{- site.data.lang[site.conference.lang].pronoun.in | default: "in" -}}
@@ -62,7 +67,7 @@
               {{- site.data.lang[site.conference.lang].pronoun.for | default: "for" -}}
             </span> {% include partials/show_talk_duration.html -%}
 
-            <span>/</span>
+            {% assign scheduled = true %}
           {% endif %}
         {% endfor %}
       {% endfor %}
