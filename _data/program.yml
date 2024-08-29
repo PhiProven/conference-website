@@ -53,7 +53,7 @@ days:
     - name: Lunch
       time_start: '12:00'
       time_end: '13:30'
-    - name: New models of $sf{GL.3}$
+    - name: New models of $\sf{GL.3}$
       time_start: '13:30'
       time_end: '14:15'
     - name: Two-dimensional Kripke semantics
