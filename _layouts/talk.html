@@ -71,7 +71,11 @@
   {{ content }}
 
   {%- if talk.abstract -%}
-    <iframe src="{{ talk.abstract | prepend: 'documents/abstracts/' | relative_url }}" class="talk-abstract-embed"></iframe>
+  <div class="embed-responsive embed-responsive-4by3">
+    <iframe src="{{ site.url }}/_assets/abstracts/{{ talk.abstract }}#toolbar=0&view=FitH"
+            class="embed-responsive-item" allowFullscreen></iframe>
+  </div>
+  <a href="{{ site.url }}/_assets/abstracts/{{ talk.abstract }}" download>(Download the abstract.)</a>
   {%- endif -%}
 
   {% include partials/get_link_types.html %}
