@@ -39,14 +39,14 @@ university.
 
 #### Invited Speakers
 
-- [Juan Pablo Aguilera]({{ site.baseurl }}/speakers/invited/juan_pablo_aguilera "Juan Pablo Aguilera")
-- [Ali Enayat]({{ site.baseurl }}/speakers/invited/ali_enayat "Ali Enayat") (Tutorial)
-- [Gilda Ferreira]({{ site.baseurl }}/speakers/invited/gilda_ferreira "Gilda Ferreira")
-- [Raheleh Jalali]({{ site.baseurl }}/speakers/invited/raheleh_jalali "Raheleh Jalali")
-- [Alex Kavvos]({{ site.baseurl }}/speakers/invited/alex_kavvos "Alex Kavvos")
-- [Mateusz Łełyk]({{ site.baseurl }}/speakers/invited/mateusz_łełyk "Mateusz Łełyk") (Tutorial)
-- [Michael Rathjen]({{ site.baseurl }}/speakers/invited/michael_rathjen "Michael Rathjen")
-- [Daniyar Shamkanov]({{ site.baseurl }}/speakers/invited/daniyar_shamkanov "Daniyar Shamkanov")
+- [Juan Pablo Aguilera]({{ site.baseurl }}/speakers/juan_pablo_aguilera "Juan Pablo Aguilera")
+- [Ali Enayat]({{ site.baseurl }}/speakers/ali_enayat "Ali Enayat") (Tutorial)
+- [Gilda Ferreira]({{ site.baseurl }}/speakers/gilda_ferreira "Gilda Ferreira")
+- [Raheleh Jalali]({{ site.baseurl }}/speakers/raheleh_jalali "Raheleh Jalali")
+- [Alex Kavvos]({{ site.baseurl }}/speakers/alex_kavvos "Alex Kavvos")
+- [Mateusz Łełyk]({{ site.baseurl }}/speakers/mateusz_łełyk "Mateusz Łełyk") (Tutorial)
+- [Michael Rathjen]({{ site.baseurl }}/speakers/michael_rathjen "Michael Rathjen")
+- [Daniyar Shamkanov]({{ site.baseurl }}/speakers/daniyar_shamkanov "Daniyar Shamkanov")
 
 ---
 
