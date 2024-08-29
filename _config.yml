@@ -92,15 +92,17 @@ conference:
   talks:
     main_categories:
       - name: Tutorials
-        color: secondary
+        color: warning
       - name: Invited Talks
         color: primary
       - name: Contributed Talks
         color: info
-      - name: Breaks
-        color: light
       - name: Events
         color: success
+        hide: true
+      - name: Breaks
+        color: light
+        hide: true
 
   speakers:
     show_firstname: true
