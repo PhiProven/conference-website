@@ -51,15 +51,18 @@
               {%- include partials/show_live_button.html -%}
             {%- endif -%}
 
+            {%- unless site.conference.location.hide -}
             {%- assign room = site.rooms | where: 'name', r.name | first -%}
             <span class="d-none d-sm-inline ml-1">
               {{- site.data.lang[site.conference.lang].pronoun.in | default: "in" -}}
             </span> {% include partials/show_room.html -%}
+            {%- endunless -%}
 
             <span class="d-none d-sm-inline ml-1">
               {{- site.data.lang[site.conference.lang].pronoun.for | default: "for" -}}
             </span> {% include partials/show_talk_duration.html -%}
 
+            <span>/</span>
           {% endif %}
         {% endfor %}
       {% endfor %}

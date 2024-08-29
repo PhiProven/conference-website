@@ -76,6 +76,7 @@ conference:
             absolute_url: 'http://www.joostjjoosten.nl//WormShop/WormShop/WormShop.html'
 
   location:
+    hide: true
     url: /location
     navbar_title: Location
     map:
@@ -85,7 +86,7 @@ conference:
 
   program:
     url: /program
-    time_steps: 15
+    time_steps: 30
     show_alltimes: true
 
   talks:
@@ -102,6 +103,7 @@ conference:
         color: success
 
   speakers:
+    show_firstname: true
     show_university: true
 
 include:

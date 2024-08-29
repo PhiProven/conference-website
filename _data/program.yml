@@ -3,12 +3,12 @@ days:
   abbr: Mon
   date: 2024-09-02
   rooms:
-  - Prinzenzaal:
+  - name: Prinzenzaal
     talks:
     - name: Categoricity-like notions for first-order theories
       time_start: '9:30'
       time_end: '10:30'
-    - name: Coffee Break
+    - name: Coffee break
       time_start: '10:30'
       time_end: '11:00'
     - name: Boundedly axiomatizable theories meet (in)completeness
@@ -23,10 +23,10 @@ days:
     - name: Admissibility of Visser's rules in intuitionistic modal logics
       time_start: '14:15'
       time_end: '15:00'
-    - name: Coffee Break
+    - name: Coffee break
       time_start: '15:00'
       time_end: '15:30'
-    - name: Towards Intuitionistic Polymodal Provability Logic
+    - name: Towards intuitionistic polymodal provability logic
       time_start: '15:30'
       time_end: '16:00'
     - name: Proof-theoretic remarks on extensions of the Kripke-Feferman theory of truth
@@ -39,12 +39,12 @@ days:
   abbr: Tue
   date: 2024-09-03
   rooms:
-  - Prinzenzaal:
+  - name: Prinzenzaal
     talks:
     - name: Categoricity-like notions for first-order theories
       time_start: '9:30'
       time_end: '10:30'
-    - name: Coffee Break
+    - name: Coffee break
       time_start: '10:30'
       time_end: '11:00'
     - name: Boundedly axiomatizable theories meet (in)completeness
@@ -53,13 +53,13 @@ days:
     - name: Lunch
       time_start: '12:00'
       time_end: '13:30'
-    - name: New models of GL.3
+    - name: New models of $sf{GL.3}$
       time_start: '13:30'
       time_end: '14:15'
     - name: Two-dimensional Kripke semantics
       time_start: '14:15'
       time_end: '15:00'
-    - name: Coffee Break
+    - name: Coffee break
       time_start: '15:00'
       time_end: '15:30'
     - name: How constructive is Gödel's Dialectica translation?
@@ -75,39 +75,39 @@ days:
   abbr: Wed
   date: 2024-09-04
   rooms:
-  - Prinzenzaal:
+  - name: Prinzenzaal
     talks:
-    - name: A classification of the KPl-provably total set-recursive functions
+    - name: A classification of the $\sf{KPl}$-provably total set-recursive functions
       time_start: '10:00'
       time_end: '10:30'
-    - name: Coffee Break
+    - name: Coffee break
       time_start: '10:30'
       time_end: '11:00'
-    - name: Strong Completeness Below GLP
+    - name: Strong completeness below $\sf{GLP}$
       time_start: '11:00'
       time_end: '11:30'
-    - name: IGL without sharps
+    - name: $\sf{IGL}$ without sharps
       time_start: '11:30'
       time_end: '12:00'
     - name: Lunch
       time_start: '12:00'
       time_end: '13:30'
-    - name: Boat Trip
+    - name: Boat trip
       time_start: '17:20'
       time_end: '18:45'
-    - name: Social Dinner
+    - name: Social dinner
       time_start: '18:45'
       time_end: '21:00'
 - name: Thursday
   abbr: Thu
   date: 2024-09-05
   rooms:
-  - Prinzenzaal:
+  - name: Prinzenzaal
     talks:
     - name: Categoricity-like notions for first-order theories
       time_start: '9:30'
       time_end: '10:30'
-    - name: Coffee Break
+    - name: Coffee break
       time_start: '10:30'
       time_end: '11:00'
     - name: Boundedly axiomatizable theories meet (in)completeness
@@ -119,12 +119,12 @@ days:
     - name: Atomization alternatives in the Russell-Prawitz translation
       time_start: '13:30'
       time_end: '14:15'
-    - name: Topological semantics of the predicate modal calculus QGL extended with non-well-founded proofs
+    - name: Topological semantics of the predicate modal calculus $\sf{QGL}$ extended with non-well-founded proofs
       time_start: '14:15'
       time_end: '15:00'
-    - name: Coffee Break
+    - name: Coffee break
       time_start: '15:00'
       time_end: '15:30'
-    - name: Robert Feys on Modal Logic
+    - name: Robert Feys on modal logic
       time_start: '15:30'
       time_end: '16:00'
