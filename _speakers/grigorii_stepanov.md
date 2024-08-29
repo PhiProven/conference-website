@@ -7,4 +7,5 @@ links:
   - name: Website
     absolute_url: https://grigorii-st.github.io
     icon: house-user
+mathjax: true
 ---

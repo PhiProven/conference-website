@@ -7,4 +7,5 @@ links:
   - name: Website
     absolute_url: http://www.joostjjoosten.nl
     icon: house-user
+mathjax: true
 ---

@@ -7,4 +7,5 @@ links:
   - name: Website
     absolute_url: https://www.leonardopacheco.xyz
     icon: house-user
+mathjax: true
 ---
