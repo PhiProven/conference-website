@@ -1,5 +1,5 @@
 ---
-name: Towards Intuitionistic Polymodal Provability Logic
+name: Towards intuitionistic polymodal provability logic
 speakers:
   - Mojtaba Mojtahedi
   - Fedor Pakhomov

@@ -1,5 +1,5 @@
 ---
-name: New models of GL.3
+name: New models of $\sf{GL.3}$
 speakers:
   - Juan Pablo Aguilera
 categories:

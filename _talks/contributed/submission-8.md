@@ -1,5 +1,5 @@
 ---
-name: Robert Feys on Modal Logic
+name: Robert Feys on modal logic
 speakers:
   - Jacques Riche
   - Max Cresswell

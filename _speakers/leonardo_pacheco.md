@@ -2,7 +2,7 @@
 name: Leonardo Pacheco
 first_name: Leonardo
 last_name: Pacheco
-university: TU Wien
+university: Vienna University of Technology
 links:
   - name: Website
     absolute_url: https://www.leonardopacheco.xyz
