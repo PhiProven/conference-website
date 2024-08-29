@@ -83,6 +83,7 @@
           -->
           {%- assign z-index-max = 999 -%}
 
+          {%- assign nbr_steps = nbr_steps | plus: 1 -%}
           {%- for i in (1..nbr_steps) -%}
             {%- assign current_day = 0 -%}
             {%- assign current_hour = i | minus: 1 | times: site.conference.program.time_steps | plus: day_start_min | divided_by: 60 | floor | plus: day_start_hour -%}
@@ -99,19 +100,10 @@
 
             <tr>
 
-              {%- if current_min == 0 -%}
-                <th scope="row" class="col-title text-right text-muted font-weight-normal pt-0" style="z-index: {{ z-index-max }}">
-                  {{- current_time -}}
-                </th>
-              {%- elsif site.conference.program.show_alltimes -%}
-                <th scope="row" class="col-title text-right text-muted font-weight-normal pt-0" style="z-index: {{ z-index-max }}">
-                  {{ current_time }}
-                </th>
-              {%- else -%}
-                <th scope="row" class="col-title" style="z-index: {{ z-index-max }}"></th>
-              {%- endif %}
+              {%- assign flag_talk_start = false -%}
+              {%- assign flag_talk_end = false -%}
 
-              <td class="col-space p-0"></td>
+              {%- capture active_talks_columns -%}
 
               {%- for r in d.rooms -%}
                 {%- assign room = site.rooms | where: 'name', r.name | first -%}
@@ -168,12 +160,18 @@
                     </td>
                     {%- assign active_talk = true %}
 
+                    {%- assign flag_talk_start = true -%}
+
+                  {%- endif %}
+
+                  {%- if d_end_hour == 0 and d_end_min == 0 -%}
+                    {%- assign flag_talk_end = true -%}
                   {%- endif %}
 
                 {%- endfor %}
 
                 {%- unless active_talk == true %}
-                  <td class="p-0"></td>
+                  <td class="p-0" style="border: none"></td>
                 {%- endunless -%}
 
                 {%- if forloop.last != true %}
@@ -182,6 +180,27 @@
 
               {%- endfor %}
 
+              {%- endcapture -%}
+
+              {%- if site.conference.program.show_alltimes -%}
+                {%- if flag_talk_start or flag_talk_end -%}
+                  <th scope="row" class="col-title text-right text-muted font-weight-normal pt-0" style="z-index: {{ z-index-max }}">
+                    {{ current_time }}
+                  </th>
+                {%- else -%}
+                  <th scope="row" class="col-title" style="z-index: {{ z-index-max }}; border: none"></th>
+                {%- endif -%}
+              {%- elsif current_min == 0 -%}
+                <th scope="row" class="col-title text-right text-muted font-weight-normal pt-0" style="z-index: {{ z-index-max }}">
+                  {{- current_time -}}
+                </th>
+              {%- else -%}
+                <th scope="row" class="col-title" style="z-index: {{ z-index-max }}"></th>
+              {%- endif %}
+
+              <td class="col-space p-0"></td>
+
+              {{ active_talks_columns }}
             </tr>
           {%- endfor %}
         </tbody>
