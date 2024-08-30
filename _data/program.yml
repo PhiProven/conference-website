@@ -3,7 +3,7 @@ days:
   abbr: Mon
   date: 2024-09-02
   rooms:
-  - name: Prinzenzaal
+  - name: Prinsenzaal
     talks:
     - name: Categoricity-like notions for first-order theories
       time_start: '9:30'
@@ -39,7 +39,7 @@ days:
   abbr: Tue
   date: 2024-09-03
   rooms:
-  - name: Prinzenzaal
+  - name: Prinsenzaal
     talks:
     - name: Categoricity-like notions for first-order theories
       time_start: '9:30'
@@ -75,7 +75,7 @@ days:
   abbr: Wed
   date: 2024-09-04
   rooms:
-  - name: Prinzenzaal
+  - name: Prinsenzaal
     talks:
     - name: A classification of the $\sf{KPl}$-provably total set-recursive functions
       time_start: '10:00'
@@ -102,7 +102,7 @@ days:
   abbr: Thu
   date: 2024-09-05
   rooms:
-  - name: Prinzenzaal
+  - name: Prinsenzaal
     talks:
     - name: Categoricity-like notions for first-order theories
       time_start: '9:30'
