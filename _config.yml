@@ -110,3 +110,5 @@ include:
 
 kramdown:
   math_engine: katex
+
+incremental: true
