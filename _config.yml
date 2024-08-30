@@ -98,6 +98,9 @@ conference:
       - name: Breaks
         color: light
         hide: true
+      - name: Special
+        color: dark
+        hide: true
 
   speakers:
     show_firstname: true

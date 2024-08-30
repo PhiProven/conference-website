@@ -5,6 +5,12 @@ days:
   rooms:
   - name: Prinsenzaal
     talks:
+    - name: Registration
+      time_start: '8:45'
+      time_end: '9:20'
+    - name: Opening session
+      time_start: '9:20'
+      time_end: '9:30'
     - name: Categoricity-like notions for first-order theories
       time_start: '9:30'
       time_end: '10:30'
