@@ -51,10 +51,14 @@ conference:
             relative_url: /talks/
           - name: Speakers Overview
             relative_url: /speakers/
-      - name: Location
-        relative_url: /location/
+      - name: Information
+        menu:
+          - name: Location
+            relative_url: /information/location
+          - name: Practical
+            relative_url: /information/practical
       - name: Registration
-        relative_url: /registration/
+        relative_url: /registration
       - name: 'Previous Editions'
         menu:
           - name: 2023
@@ -75,7 +79,7 @@ conference:
     url: /location
     navbar_title: Location
     map:
-      home_coord: 51.05638927831991, 3.7158379311818135
+      home_coord: 51.057493642288094, 3.71595252377464
       map_provider: 'OpenStreetMap.Mapnik'
       default_zoom: 17
 
