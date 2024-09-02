@@ -5,7 +5,7 @@ categories:
 ---
 
 The social dinner will be held in **Pakhuis** from 18:45 onwards on Wednesday,
-September 4, 2024.
+September 4, 2024; immediately after the social excursion and boat trip.
 
 **Address:**
 > Pakhuis ([Google Maps](https://maps.app.goo.gl/FMYn1dXesUzqhC7g7))\
