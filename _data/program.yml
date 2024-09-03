@@ -89,10 +89,10 @@ days:
     - name: Coffee break
       time_start: '10:45'
       time_end: '11:15'
-    - name: A classification of the $\sf{KPl}$-provably total set-recursive functions
+    - name: Strong completeness below $\sf{GLP}$
       time_start: '11:15'
       time_end: '11:45'
-    - name: Strong completeness below $\sf{GLP}$
+    - name: A classification of the $\sf{KPl}$-provably total set-recursive functions
       time_start: '11:45'
       time_end: '12:15'
     - name: Boat trip
