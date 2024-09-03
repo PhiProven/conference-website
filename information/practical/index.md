@@ -26,5 +26,5 @@ Below is a list of some food/drink options you can look around in the city.
 
 ### WiFi
 
-**WiFi SSID:** `RustpuntGuest`\
+**WiFi SSID:** `RustPunt-Guest`\
 **WiFi password:** `WelcomeGuest!`
