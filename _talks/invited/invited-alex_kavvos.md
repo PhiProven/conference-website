@@ -5,6 +5,7 @@ speakers:
 categories:
   - Invited Talks
 katex: true
+slides: Slides_Wormshop_2024_AKavvos.pdf
 ---
 
 The study of modal logic has witnessed tremendous development following the introduction of Kripke semantics.

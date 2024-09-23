@@ -7,4 +7,5 @@ categories:
   - Contributed Talks
 abstract: contributed/Wormshop_2024_paper_9.pdf
 mathjax: true
+slides: Slides_Wormshop_2024_GStepanov.pdf
 ---

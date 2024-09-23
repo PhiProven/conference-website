@@ -6,4 +6,5 @@ categories:
   - Invited Talks
 abstract: invited/abstract_Wormshop_DShamkanov.pdf
 mathjax: true
+slides: Slides_Wormshop_2024_DShamkanov.pdf
 ---

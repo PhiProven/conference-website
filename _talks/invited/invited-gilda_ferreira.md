@@ -5,6 +5,7 @@ speakers:
 categories:
   - Invited Talks
 katex: true
+slides: Slides_Wormshop_2024_GFerreira.pdf
 ---
 
 In this presentation, we explore various versions of the Russell-Prawitz

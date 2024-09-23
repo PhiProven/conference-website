@@ -5,6 +5,7 @@ speakers:
 categories:
   - Invited Talks
 katex: true
+slides: Slides_Wormshop_2024_MRathjen.pdf
 ---
 
 The best known program for calibrating the strength of theorems from ordinary

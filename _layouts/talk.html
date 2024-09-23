@@ -83,7 +83,11 @@
     <iframe src="{{ site.baseurl }}/_assets/abstracts/{{ talk.abstract }}#toolbar=0&view=FitH"
             class="embed-responsive-item" allowFullscreen></iframe>
   </div>
-  <a href="{{ site.baseurl }}/_assets/abstracts/{{ talk.abstract }}" download>(Download the abstract.)</a>
+  <p><a href="{{ site.baseurl }}/_assets/abstracts/{{ talk.abstract }}" download>(Download the abstract.)</a></p>
+  {%- endif -%}
+
+  {%- if talk.slides -%}
+  <p><a href="{{ site.baseurl }}/_assets/slides/{{ talk.slides }}" >(Download the slides.)</a></p>
   {%- endif -%}
 
   {% include partials/get_link_types.html %}

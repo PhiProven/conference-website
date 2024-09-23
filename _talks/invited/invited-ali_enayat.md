@@ -5,6 +5,7 @@ speakers:
 categories:
   - Tutorials
 katex: true
+slides: Slides_Wormshop_2024_AEnayat.pdf
 ---
 
 Recently Albert Visser and I wrote a paper on the incompleteness of boundedly
