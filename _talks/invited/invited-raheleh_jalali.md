@@ -5,6 +5,7 @@ speakers:
 categories:
   - Invited Talks
 katex: true
+slides: Slides_Wormshop_2024_RJalali.pdf
 ---
 
 We study the connection between the form of the primitive rules of a proof
